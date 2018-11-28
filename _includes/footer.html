@@ -1,0 +1,128 @@
+<section class="footer">
+    <footer>
+      <center>
+        <div class = "footer_div">
+        <nav class="cover-navigation navigation--social">
+          <ul class="navigation">
+
+
+            {% if site.social.github %}
+             <!-- timeline -->
+              <li class="navigation__item_social">
+               <a href="https://ydzzzz.github.io" title="壮壮&菲菲" target="_blank">
+                 <i class='social fa fa-heartbeat fa-2x'></i>
+                 <span class="label">Timeline</span>
+                 </a>
+                 </li>
+
+             {% endif %}
+
+         {% if site.social.github %}
+          <!-- telegram -->
+           <li class="navigation__item_social">
+            <a href="https://t.me/ydz123456" title="@壮壮的Telegram" target="_blank">
+              <i class='social fa fa-paper-plane fa-2x'></i>
+              <span class="label">Telegram</span>
+              </a>
+              </li>
+
+          {% endif %}
+
+
+          {% if site.social.github %}
+           <!-- weixin -->
+            <li class="navigation__item_social">
+             <a href="./images/weixin.png" title="@壮壮的微信" target="_blank">
+               <i class='social fa fa-weixin fa-2x'></i>
+               <span class="label">Telegram</span>
+               </a>
+               </li>
+
+           {% endif %}
+
+
+
+          {% if site.social.github %}
+          <!-- qq -->
+          <li class="navigation__item_social">
+            <a href="mqq://im/chat?chat_type=wpa&uin=2474745326&version=1&src_type=web{{site.social.qq}}" title="@壮壮的QQ" target="_blank">
+              <i class='social fa fa-qq fa-2x'></i>
+              <span class="label">qq</span>
+            </a>
+          </li>
+          {% endif %}
+
+
+        {% if site.social.weibo %}
+        <!-- Weibo -->
+        <li class="navigation__item_social">
+          <a href="http://weibo.com/{{site.social.weibo}}" title="@壮壮的微博" target="_blank">
+            <i class='social fa fa-weibo fa-2x'></i>
+            <span class="label">Weibo</span>
+          </a>
+        </li>
+        {% endif %}
+
+
+          {% if site.social.twitter %}
+          <!-- Twitter -->
+          <li class="navigation__item_social">
+            <a href="http://twitter.com/{{site.social.twitter}}" title="@壮壮的Twitter" target="_blank">
+              <i class='social fa fa-twitter fa-2x'></i>
+              <span class="label">Twitter</span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.social.gplus %}
+          <!-- Google Plus -->
+          <li class="navigation__item_social">
+            <a href="https://plus.google.com/{{site.social.gplus}}" rel="author" title="Google+" target="_blank">
+              <i class='social fa fa-google-plus-square fa-2x'></i>
+              <span class="label">Google Plus</span>
+            </a>
+          </li>
+          {% endif %}
+
+          <!-- RSS -->
+      <!--    <li class="navigation__item_social">
+            <a href="/feed.xml" rel="author" title="RSS" target="_blank">
+              <i class='social fa fa-rss fa-2x'></i>
+              <span class="label">RSS</span>
+            </a>
+          </li>
+      -->
+          {% if site.social.mail %}
+          <!-- Email -->
+          <li class="navigation__item_social">
+            <a href="mailto:{{site.social.mail}}" title="Contact me">
+              <i class='social fa fa-envelope fa-2x'></i>
+              <span class="label">Email</span>
+            </a>
+          </li>
+          {% endif %}
+
+          </ul>
+        </nav>
+
+        </div>
+      </center>
+<!-- footer -->
+
+        <div class = "footer_div">
+           <p class="copyright text-muted">Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}|<a href="https://ydzydzydz.github.io/">@zhuangzhuang</a>
+
+        	<div align="right">
+    			<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+          <!-- 访问统计 -->
+        <span id="busuanzi_container_site_pv">
+            本站总访问量
+            <span id="busuanzi_value_site_pv"></span>次
+          </span>
+
+
+        <div>
+    </footer>
+</section>
